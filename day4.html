@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 4 – Final Confirmation</title>
+    <style>
+        body {
+            background: #0e0e0e;
+            color: #d0f0c0;
+            font-family: 'Courier New', monospace;
+            padding: 2em;
+        }
+
+        .section {
+            margin-bottom: 2em;
+        }
+
+        .question {
+            font-weight: bold;
+        }
+
+        .answer-box {
+            background: #1a1a1a;
+            padding: 1em;
+            margin-top: 0.5em;
+            border: 1px solid #333;
+        }
+
+        .image-banner {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            position: relative;
+            overflow: hidden;
+            margin-top: 1em;
+        }
+
+            .image-banner img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 120%;
+                height: auto;
+                object-fit: cover;
+            }
+
+        .choices a {
+            display: block;
+            margin-top: 1em;
+            color: #7df9ff;
+            text-decoration: none;
+        }
+
+            .choices a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <h1>📅 Day 4: Final Confirmation</h1>
+
+    <p>You've gathered environmental data, chemical evidence, and lab results. Now it's time to confirm the contamination's source and impact. One final push to solve the case...</p>
+
+    <div class="image-banner">
+        <img src="https://images.unsplash.com/photo-1631203882303-30634a9528d6?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Microscope slide">
+    </div>
+
+    <div class="section">
+        <div class="question">🔟 You heat three samples of different polymers: PET, HDPE, and PVC. Their recorded temperatures are 97.4°C, 99.9°C, and 101.2°C. One of them begins to boil. Use your research skills to find the boiling points of these polymers and match them to the readings. Which one is boiling, and how do you know?</div>
+        <div class="answer-box">[Player types or writes reasoning here]</div>
+    </div>
+
+    <div class="section">
+        <div class="question">🔟1 You shine a laser through a transparent polymer sample — specifically PET (polyethylene terephthalate). The light bends as it passes through. This is called <strong>refraction</strong> — a physical principle where light changes direction when it moves through materials with different optical densities. What does the amount of bending tell you about the polymer?</div>
+        <div class="answer-box">[Player types or writes reasoning here]</div>
+    </div>
+
+    <div class="section">
+        <div class="question">🔟2 A DNA strand is found in runoff water. You sequence: ATG CCA TTA (A = Adenine, T = Thymine, C = Cytosine, G = Guanine — these are the four basic building blocks of DNA). What is the complementary strand? Use your scientific skills to figure out the pairings:</div>
+        <p><strong><a href="https://www.britannica.com/science/base-pair" target="_blank" style="color:#7df9ff;">Base pairing</a> rules:</strong> A = T, T = A, C = G, G = C</p>
+        <p>
+            <strong>Complement of:</strong><br>
+            ATG (Adenine, Thymine, Guanine) = TAC (Thymine, Adenine, Cytosine)<br>
+            CCA (Cytosine, Cytosine, Adenine) = GGT (Guanine, Guanine, Thymine)<br>
+            TTA (Thymine, Thymine, Adenine) = AAT (Adenine, Adenine, Thymine)
+        </p>
+        <h3>What do you think was the cause of the water contamination?</h3>
+        <p><em>Search online or in your notes to confirm these are correct using what you know about base pairing.</em></p>
+        <ul>
+            <li>It could come from a nearby animal testing lab.</li>
+            <li>It may be human DNA, indicating worker contamination or dumping.</li>
+            <li>It could be from genetically modified fish waste.</li>
+            <li>It might be a false positive from natural bacterial colonies.</li>
+        </ul>
+        <div class="answer-box">[Player types or writes reasoning here]</div>
+    </div>
+
+    <div class="choices">
+        <a href="mission-complete.html">Submit Your Conclusions</a>
+    </div>
+</body>
+</html>
